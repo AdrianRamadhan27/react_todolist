@@ -1,0 +1,44 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter p {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.counter p.GENAP {
+  color:blue;
+}
+
+.counter p.GANJIL {
+  color:red;
+}
+
+.counter div {
+  display: flex;
+  gap: 10px;
+}
+
+.counter button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.counter button:nth-child(1) {
+  background-color: #007bff;
+}
+.counter button:nth-child(3) {
+  background-color: #17dd6d;
+}

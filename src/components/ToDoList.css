@@ -1,0 +1,88 @@
+/* ToDoList.css */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .task-indicator {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-button {
+    color: green;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .todo-checkbox {
+    margin-right: 10px;
+  }
+  
+  .todo-text {
+    flex: 1;
+  }
+
+  .todo-text.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .edit-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-button, .delete-button, .save-button {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .edit-button {
+    color: blue;
+  }
+  
+  .save-button {
+    color: green;
+  }
+  
+  .delete-button {
+    color: red;
+  }
+  
